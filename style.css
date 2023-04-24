@@ -93,7 +93,7 @@ button:hover {
     text-transform: uppercase;
 }
 
-.task {
+.new-task__task {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -104,20 +104,15 @@ button:hover {
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
+    width: 318px;
 }
 
-.task:focus {
+.new-task__task:focus {
     color: #333;
 }
 
-/* New Task */
-label[for='new-task'] {
-    display: block;
-  
-}
-
-input#new-task {
-    width: 318px;
+.title.new-task__title {
+  margin-bottom: 20px;
 }
 
 /* Task list */
@@ -173,9 +168,9 @@ input#new-task {
   display: none;
 }
 
-ul li.editMode input[type=text] {
-    display:inline-block;
-    width:224px
+.item-task__input.edit {
+    display: inline-block;
+    width: 224px; 
 }
 
 .item-task__input{
