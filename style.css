@@ -150,13 +150,13 @@ input#new-task {
     width: 226px
 }
 
-.item-task__btn-delete {
+.item-task__img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.item-task__btn-delete:hover {
+.item-task__img:hover {
     transform: rotateZ(0);
 }
 
