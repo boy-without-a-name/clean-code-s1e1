@@ -21,6 +21,11 @@ button {
   font-family: Lato, sans-serif;
 }
 
+.main {
+    width: 500px;
+    margin: 0 auto;
+    display: block;      
+}
 .header {
   width: 500px;
   margin: 0 auto;
