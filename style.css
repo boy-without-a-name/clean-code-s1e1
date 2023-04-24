@@ -146,9 +146,9 @@ input#new-task {
 }
 
 /* Completed */
-ul#completed-tasks label {
-    text-decoration: line-through
-    color: #888;
+.item-task__text.item-task__text_check {
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
