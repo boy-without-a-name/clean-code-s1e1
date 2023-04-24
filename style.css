@@ -157,14 +157,14 @@ button:hover {
 
 /* Completed */
 
-.item-task__text.item-task__text_check {
+.item-task__text_check {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.item-task__text.item-task__text_edit {
+.item-task__text_edit {
   display: none;
 }
 
