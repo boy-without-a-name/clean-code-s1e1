@@ -45,17 +45,20 @@
         </div>
       </section>
       <section class="complited-task">
-        <h3 class="title">Completed</h3>
-        <ul id="completed-tasks">
-          <li>
-          <input type="checkbox" checked>
-          <label class="task">See the Doctor</label>
-          <input type="text" class="task">
-          <button class="edit">Edit</button><button class="delete">
-            <img src="./remove.svg">
-          </button>
-          </li>
-        </ul>
+        <div class="tasks">
+          <h3 class="title tasks__title">Completed</h3>
+          <ul class="tasks__list">
+            <li class="item-task">
+              <input class="item-task__check" type="checkbox" checked>
+              <label class="item-task__text">See the Doctor</label>
+              <input type="text" class="item-task__input item-task__input_check">
+              <button class="item-task__btn-edit">Edit</button>
+              <button class="item-task__btn-delete">
+                <img src="./remove.svg">
+              </button>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <script type="text/javascript" SRC="app.js"></script>
