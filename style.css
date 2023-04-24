@@ -70,8 +70,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for='new-task'] {
+.title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -80,7 +79,7 @@ label[for='new-task'] {
     margin: 0;
     text-transform: uppercase;
 }
-input[type="text"] {
+.task {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -92,7 +91,7 @@ input[type="text"] {
     font-family: Lato, sans-serif;
     color: #888;
 }
-input[type="text"]:focus {
+.task:focus {
     color: #333;
 }
 
