@@ -26,6 +26,7 @@ button {
   margin: 0 auto;
   display: block;      
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
@@ -72,7 +73,7 @@ button {
     cursor: pointer;
 }
 button:hover {
-    color: #3a3A3a;
+    color: #3a3a3a;
 }
 /* Heading */
 .title {
@@ -90,8 +91,8 @@ button:hover {
     line-height: 18px;
     height: 21px;
     padding: 0 9px;
-    border: 1px solid #dDd;
-    background: #FFF;
+    border: 1px solid #ddd;
+    background: #fff;
     border-radius: 6px;
     font-family: Lato, sans-serif;
     color: #888;
@@ -152,8 +153,8 @@ input#new-task {
 }
 
 /* Edit Task */
-ul li input[type=text] {
-    display:none
+.item-task__text.item-task__text_edit {
+  display: none;
 }
 
 ul li.editMode input[type=text] {
