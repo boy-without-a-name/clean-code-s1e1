@@ -93,7 +93,8 @@ button:hover {
     text-transform: uppercase;
 }
 
-.new-task__task {
+.new-task__task,
+.item-task__input {
     margin: 0;
     font-size: 18px;
     line-height: 18px;
@@ -107,7 +108,8 @@ button:hover {
     width: 318px;
 }
 
-.new-task__task:focus {
+.new-task__task,
+.item-task__input:focus {
     color: #333;
 }
 
